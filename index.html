@@ -25,17 +25,16 @@
             </div>
             <script>
                 document.getElementById("slider").addEventListener("change", switchColor);
-                var unit = document.getElementById("slider");
-                console.log(unit.value);
                 function switchColor() {
-                    if (unit == 'cm'){
-                        // Get the value in the attribute of the given tag with the element 'heightt' (in this case, placeholder)
-                        document.getElementById("heightt").placeholder = "in"; // Replaces the current placeholder
-                        document.getElementById("weight").placeholder = "lbs";
-                    }else{
-                        document.getElementById("heightt").placeholder = "cm";
-                        document.getElementById("weight").placeholder = "kg";
-                    }
+                    console.log(document.getElementById("slider").value);
+                    // if (unit == 'cm'){
+                    //     // Get the value in the attribute of the given tag with the element 'heightt' (in this case, placeholder)
+                    //     document.getElementById("heightt").placeholder = "in"; // Replaces the current placeholder
+                    //     document.getElementById("weight").placeholder = "lbs";
+                    // }else{
+                    //     document.getElementById("heightt").placeholder = "cm";
+                    //     document.getElementById("weight").placeholder = "kg";
+                    // }
                 }
             </script>
 
