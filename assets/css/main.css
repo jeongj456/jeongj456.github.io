@@ -3680,10 +3680,6 @@ input, select, textarea {
 		}
 
 /* Footer */
-	#footer dt{
-		text-align: center;
-	}
-
 	#footer {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3696,7 +3692,7 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
-		text-align: center;
+		justify-content: center;
 	}
 
 		#footer > * {
